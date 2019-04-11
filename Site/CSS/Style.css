@@ -7,13 +7,6 @@ body {
 	margin: 30px;
 }
 
-.section {
-	border: 1px solid black;
-	margin: 0px 10px 20px 10px;
-	height: 178px;
-	overflow: hidden;
-}
-
 h1 , h2 {
 	text-align: center;
 }
@@ -35,6 +28,19 @@ p {
 	position: relative;
 	top: 0px;
 	right: 0px;
+}
+
+.section {
+	border: 1px solid black;
+	margin: 0px 10px 20px 10px;
+	height: 178px;
+	overflow: hidden;
+}
+
+.row {
+	margin: 0px;
+	width: 100%;
+	height: auto;
 }
 
 #section1 {
@@ -60,12 +66,6 @@ p {
 
 #heading3 {
 	background-color: #E5D198;
-}
-
-.row {
-	margin: 0px;
-	width: 100%;
-	height: auto;
 }
 
 @media (min-width: 992px) {
